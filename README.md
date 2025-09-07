@@ -8,13 +8,12 @@ It provides user authentication, video management, and adaptive HLS streaming.
 ---
 
 <p align="center">
-This project was developed collaboratively by three team members:  
+This project was developed collaboratively by two team members:  
 <p align="center">
-<a href="https://github.com/MarcoAngermann">Marco Angermann</a>, <a href="https://github.com/MarioWinter">Mario Winter</a>, and myself
-<a href="https://github.com/M-Nafi">Nafi</a>.  
+<a href="https://github.com/MarcoAngermann">Marco Angermann</a> and myself <a href="https://github.com/M-Nafi">Nafi Müftügolu</a>.  
 <p align="center">
 Although each of us maintained our own individual repositories, we worked closely together throughout the development process.  
-All three of us contributed to both the frontend and backend, using tools such as **Visual Studio Code Live Share** to enable real-time collaboration and pair programming.
+Both of us contributed to the frontend and backend, using tools such as <strong>Visual Studio Code Live Share</strong> for real-time collaboration and pair programming.
 </p>
 </p>
 </p>
@@ -110,10 +109,6 @@ SECRET_KEY=your_secret_key
 DEBUG=True
 DATABASE_URL=postgres://user:pass@localhost:5432/videoflix
 REDIS_URL=redis://localhost:6379/0
-
-# Apply migrations:
-python manage.py migrate
-python manage.py createsuperuser  # optional
 
 # Docker (Optional):
 docker-compose up --build
