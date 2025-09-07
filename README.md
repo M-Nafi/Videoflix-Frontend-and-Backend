@@ -79,7 +79,7 @@ Backend (Django DRF)
 - RESTful API endpoints for videos and users  
 - Dockerized environment for easy setup  
 </p>
----
+
 
 <h2 align="center">Installation & Setup</h2>
 
