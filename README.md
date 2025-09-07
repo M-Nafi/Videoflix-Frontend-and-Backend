@@ -23,7 +23,7 @@ All three of us contributed to both the frontend and backend, using tools such a
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Frontend-Angular%2019-red?style=for-the-badge&logo=angular&logoColor=white">
+  <img src="https://img.shields.io/badge/Frontend-Angular%2020-red?style=for-the-badge&logo=angular&logoColor=white">
   <img src="https://img.shields.io/badge/Backend-Django%20DRF-green?style=for-the-badge&logo=django&logoColor=white">
   <img src="https://img.shields.io/badge/Database-PostgreSQL-blueviolet?style=for-the-badge&logo=postgresql&logoColor=white">
   <img src="https://img.shields.io/badge/Task%20Queue-Redis%20%2F%20Django%20RQ-orange?style=for-the-badge&logo=redis&logoColor=white">
