@@ -8,6 +8,21 @@ It provides user authentication, video management, and adaptive HLS streaming.
 ---
 
 <p align="center">
+This project was developed collaboratively by three team members:  
+<p align="center">
+<a href="https://github.com/MarcoAngermann">Marco Angermann</a>, <a href="https://github.com/MarioWinter">Mario Winter</a>, and myself
+<a href="https://github.com/M-Nafi">Nafi</a>.  
+<p align="center">
+Although each of us maintained our own individual repositories, we worked closely together throughout the development process.  
+All three of us contributed to both the frontend and backend, using tools such as **Visual Studio Code Live Share** to enable real-time collaboration and pair programming.
+</p>
+</p>
+</p>
+</p>
+
+---
+
+<p align="center">
   <img src="https://img.shields.io/badge/Frontend-Angular%2019-red?style=for-the-badge&logo=angular&logoColor=white">
   <img src="https://img.shields.io/badge/Backend-Django%20DRF-green?style=for-the-badge&logo=django&logoColor=white">
   <img src="https://img.shields.io/badge/Database-PostgreSQL-blueviolet?style=for-the-badge&logo=postgresql&logoColor=white">
@@ -51,12 +66,12 @@ It provides user authentication, video management, and adaptive HLS streaming.
 
 <h2 align="center">Features</h2>
 
-### Frontend (Angular 19)
+Frontend (Angular 19)
 - Responsive UI with Angular components  
 - TypeScript & SCSS styling  
 - Integration with Django API  
 
-### Backend (Django DRF)
+Backend (Django DRF)
 - User registration with email activation  
 - JWT authentication (login, logout, refresh)  
 - Password reset with email confirmation  
@@ -74,5 +89,32 @@ It provides user authentication, video management, and adaptive HLS streaming.
 # Frontend
 git clone https://github.com/M-Nafi/Videoflix-Angular.git
 
+# Frontend Setup
+cd Videoflix-Angular
+npm install
+ng serve
+
+
 # Backend
 git clone https://github.com/M-Nafi/Videoflix-Django.git
+
+# Backend Setup
+cd Videoflix-Django
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
+pip install -r requirements.txt
+
+# Create a .env file:
+SECRET_KEY=your_secret_key
+DEBUG=True
+DATABASE_URL=postgres://user:pass@localhost:5432/videoflix
+REDIS_URL=redis://localhost:6379/0
+
+# Apply migrations:
+python manage.py migrate
+python manage.py createsuperuser  # optional
+
+# Docker (Optional):
+docker-compose up --build
+
