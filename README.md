@@ -64,13 +64,12 @@ Both of us contributed to the frontend and backend, using tools such as <strong>
 ---
 
 <h2 align="center">Features</h2>
-<p align="center">
+
 Frontend (Angular 20)
 - Responsive UI with Angular components  
 - TypeScript & SCSS styling  
 - Integration with Django API
-</p>
-<p align="center">
+
 Backend (Django DRF)
 - User registration with email activation  
 - JWT authentication (login, logout, refresh)  
@@ -78,8 +77,9 @@ Backend (Django DRF)
 - Video upload & automatic HLS transcoding (480p, 720p, 1080p)  
 - RESTful API endpoints for videos and users  
 - Dockerized environment for easy setup  
-</p>
 
+
+---
 
 <h2 align="center">Installation & Setup</h2>
 
