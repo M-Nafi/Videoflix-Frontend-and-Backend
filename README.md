@@ -43,7 +43,7 @@ All three of us contributed to both the frontend and backend, using tools such a
   </tr>
   <tr>
     <td>Frontend</td>
-    <td>Angular 19, TypeScript, SCSS</td>
+    <td>Angular 20, TypeScript, SCSS</td>
     <td><a href="https://github.com/M-Nafi/Videoflix-Angular">Videoflix-Angular</a></td>
   </tr>
   <tr>
@@ -66,7 +66,7 @@ All three of us contributed to both the frontend and backend, using tools such a
 
 <h2 align="center">Features</h2>
 
-Frontend (Angular 19)
+Frontend (Angular 20)
 - Responsive UI with Angular components  
 - TypeScript & SCSS styling  
 - Integration with Django API  
