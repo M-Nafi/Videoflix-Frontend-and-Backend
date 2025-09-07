@@ -1,7 +1,7 @@
 <h1 align="center">Videoflix – Full-Stack Streaming Platform</h1>
 
 <p align="center">
-Videoflix is a full-stack video streaming application, combining a modern <strong>Angular 19</strong> frontend with a robust <strong>Django REST Framework</strong> backend.  
+Videoflix is a full-stack video streaming application, combining a modern Angular 20 frontend with a robust Django REST Framework backend.  
 It provides user authentication, video management, and adaptive HLS streaming.
 </p>
 
